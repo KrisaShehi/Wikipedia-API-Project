@@ -1,0 +1,47 @@
+.search-page {
+    margin: 1rem;
+}
+
+.search-header {
+    background-image: url('https://cdn.dribbble.com/users/896264/screenshots/12233485/media/6eea6d5f6b1b8f19915d2149a913bf76.jpg?compress=1&resize=1600x1200&vertical=top');
+    background-size: cover;
+    height: 350px;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.search-header h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: purple;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-form button {
+    background-color: white;
+    border: transparent;
+    padding: .3rem;
+    cursor: pointer;
+}
+
+.search-input {
+    min-width: 50vh;
+    background-color: black;
+    color: white;
+    padding: .4rem 1rem;
+    border: transparent;
+}
+
+.no-result {
+    color: white;
+    font-size: 2rem;
+}
